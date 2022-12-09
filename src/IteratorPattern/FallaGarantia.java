@@ -5,8 +5,8 @@ public class FallaGarantia implements IterableProduct {
 
 	@Override
 	public UserIterator createIterator() {
-		// TODO Auto-generated method stub
-		return null;
+		// Crea el iterator
+		return new ProveedorIter();
 	}
 
 }
