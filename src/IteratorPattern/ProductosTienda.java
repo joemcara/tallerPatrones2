@@ -5,8 +5,8 @@ public class ProductosTienda implements IterableProduct {
 
 	@Override
 	public UserIterator createIterator() {
-		// TODO Auto-generated method stub
-		return null;
+		// Pasa a los iteradores
+		return new VendedorIter();
 	}
 
 }
