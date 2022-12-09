@@ -5,13 +5,13 @@ public class VendedorIter implements UserIterator {
 
 	@Override
 	public Producto next() {
-		// TODO Auto-generated method stub
+		// Recorre
 		return new Producto();
 	}
 
 	@Override
 	public boolean hasMore() {
-		// TODO Auto-generated method stub
+		// Compruba si hay elementos
 		return false;
 	}
 
