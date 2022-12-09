@@ -11,7 +11,7 @@ public class CompradorWebIter implements UserIterator {
 
 	@Override
 	public boolean hasMore() {
-		// comprueba
+		// comprueba si hay elementos
 		return false;
 	}
 
